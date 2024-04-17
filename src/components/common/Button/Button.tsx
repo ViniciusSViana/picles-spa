@@ -11,8 +11,8 @@ export function Button({ variant = ButtonVariant.Default, children, ...rest }: I
         case ButtonVariant.Default:
             buttonClass += ` ${styles.buttonDefault}`
             break;
-        case ButtonVariant.OutLined:
-            buttonClass += ` ${styles.buttonOutLined}`
+        case ButtonVariant.Outlined:
+            buttonClass += ` ${styles.buttonOutlined}`
             break;
         case ButtonVariant.Text:
             buttonClass += ` ${styles.buttonText}`

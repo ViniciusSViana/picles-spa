@@ -1,6 +1,6 @@
 export enum ButtonVariant {
     Default = 'default',
     Disabled = 'disabled',
-    OutLined = 'outLined',
+    Outlined = 'outlined',
     Text = 'text',
 }
