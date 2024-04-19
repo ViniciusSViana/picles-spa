@@ -1,7 +1,7 @@
 import { GetPetsRequest, GetPetsResponse } from '../../interfaces/pets'
 import httpClient from '../api/httpclient'
 
-export async function gePets(
+export async function getPets(
     params?: GetPetsRequest): Promise<GetPetsResponse> {
     try {
         const response = await httpClient.get('/pet',   {params})
